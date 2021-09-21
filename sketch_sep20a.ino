@@ -55,29 +55,29 @@ void setup() {
   
   advance(200, 200);
   delay(100);
-  myServo.write(90);
-  delay(100)
-  stop();
-  delay(450);
-
-  advance(200, 200);
-  delay(100);
-  myServo.write(0)
+  myServo.write(180);
   delay(100);
   stop();
   delay(450);
 
   advance(200, 200);
   delay(100);
-  myServo.write(90);
-  delay(100)
+  myServo.write(30);
+  delay(100);
+  stop();
+  delay(450);
+
+  advance(200, 200);
+  delay(100);
+  myServo.write(180);
+  delay(100);
   stop();
   delay(450);
 
 
   advance(200, 200);
   delay(100);
-  myServo.write(0)
+  myServo.write(30);
   delay(100);
   stop();
   delay(450);
@@ -96,20 +96,28 @@ void setup() {
   
   advance(200, 200);
   delay(100);
-  stop();
-  delay(450);
-  
-  advance(200, 200);
+  myServo.write(180);
   delay(100);
   stop();
   delay(450);
   
   advance(200, 200);
   delay(100);
+  myServo.write(30);
+  delay(100);
   stop();
   delay(450);
   
   advance(200, 200);
+  delay(100);
+  myServo.write(180);
+  delay(100);
+  stop();
+  delay(450);
+  
+  advance(200, 200);
+  delay(100);
+  myServo.write(30);
   delay(100);
   stop();
   delay(450);
